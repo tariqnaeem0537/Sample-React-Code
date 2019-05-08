@@ -1,0 +1,26 @@
+@import '~assets/scss/colors';
+
+.resend {
+  margin: 0 0 40px 0;
+  color: $blue;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.button {
+  height: 55px !important;
+  margin-top: 15px !important;
+}
+
+.explaination {
+  height: 48px;
+  color: #637381;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.spinner {
+  position: absolute;
+  top: 150px;
+  right: 10%;
+}

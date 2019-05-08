@@ -1,0 +1,75 @@
+@import '~assets/scss/colors';
+
+.container {
+  color: $gray-darker;
+}
+
+.upload-title {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-top: 26px;
+
+  b {
+    font-family: 'Telstra-Akkurat-Bold';
+  }
+}
+
+.download {
+  color: $blue;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.upload-box {
+  height: 300px;
+  margin: 8px 0;
+  border: 1px solid $gray-lighter;
+  font-size: 12px;
+  color: $gray;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.boxContent {
+  svg {
+    color: $gray-light;
+    font-size: 60px;
+  }
+}
+.uploading {
+  font-size: 15px;
+  color: $gray-darker;
+}
+.filename {
+  margin-left: 4px;
+  color: $blue;
+}
+.cancel {
+  font-family: 'Telstra-Akkurat-Bold';
+  font-size: 13px;
+  color: $red-dark;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.onDragOver {
+  border: 2px dashed $gray-lighter;
+  margin: 6px -2px;
+}
+.howto {
+  font-size: 14px;
+  line-height: 1.5em;
+  color: #757575;
+  margin-bottom: 25px;
+}
+.upload-button {
+  width: 50%;
+  float: right;
+  margin-top: 10px;
+}

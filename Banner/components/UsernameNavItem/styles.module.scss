@@ -1,0 +1,24 @@
+@import '~assets/scss/colors';
+
+.user-nav-item {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: black;
+
+  &:hover {
+    cursor: pointer;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+.username {
+  margin: 0 10px;
+}
+
+.circle {
+  background: $blue-darker;
+  color: white;
+}

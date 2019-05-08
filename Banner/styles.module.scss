@@ -1,0 +1,31 @@
+@import '~assets/scss/colors';
+
+header {
+  background: linear-gradient(90deg, #28c8f3 0%, #e880ec 60.56%, #5F84C2 100%);
+  color: $white !important;
+  height: 3px;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Telstra-Akkurat-Regular" !important;
+  padding: 0 25px;
+}
+
+.nav-left {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: center;
+  font-size: 16px;
+  color: black;
+}

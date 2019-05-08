@@ -1,0 +1,69 @@
+%shared-styles {
+  font-size: 14px;
+  color: black !important;
+  font-family: 'Telstra-Akkurat-Regular' !important;
+  background: whitesmoke !important;
+  border-left: solid 3px #757575;
+  padding-bottom: 15px;
+
+  h4 {
+    margin-top: 0 !important;
+    margin-bottom: 10px !important;
+  }
+
+  svg {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    color: black;
+  }
+}
+
+.default {
+  @extend %shared-styles;
+}
+
+.error {
+  @extend %shared-styles;
+  background: #f57a89 !important;
+  color: white !important;
+  border-left-color: red;
+
+  svg {
+    color: white;
+  }
+}
+
+.success {
+  @extend %shared-styles;
+  background: yellowgreen !important;
+  color: white !important;
+  border-left-color: green;
+
+  svg {
+    color: white;
+  }
+}
+
+.info {
+  @extend %shared-styles;
+  background: #29b6f6 !important;
+  color: white !important;
+  border-left-color: #1976d2;
+
+  svg {
+    color: white;
+  }
+}
+
+.warning {
+  @extend %shared-styles;
+  background: #ffa726 !important;
+  color: white !important;
+  border-left-color: #ff7043;
+
+  svg {
+    color: white;
+  }
+}
+

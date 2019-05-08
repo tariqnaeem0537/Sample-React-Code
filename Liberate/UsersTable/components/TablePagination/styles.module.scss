@@ -1,0 +1,44 @@
+@import '~assets/scss/_colors';
+
+.container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 10px;
+  margin-right: 2px;
+  color: $blue;
+
+  .controller {
+    margin: 0 5px;
+    color: $gray;
+    cursor: pointer;
+
+    &.disabled {
+      color: $gray-light;
+      cursor: not-allowed;
+    }
+
+    &:nth-child(2) {
+      margin-right: 0;
+    }
+  }
+}
+
+.page {
+  margin: 0 5px;
+  color: $blue;
+  cursor: pointer;
+  text-decoration: underline;
+
+  &.current {
+    text-decoration: none;
+    cursor: default;
+  }
+}
+
+.count {
+  font-family: 'Telstra-Akkurat-Light';
+  font-size: 13px;
+  color: $gray;
+  margin-right: 15px;
+}

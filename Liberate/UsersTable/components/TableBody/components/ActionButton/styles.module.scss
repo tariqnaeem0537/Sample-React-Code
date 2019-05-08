@@ -1,0 +1,59 @@
+@import '~assets/scss/colors';
+
+.action-btn {
+  font-family: "Telstra-Akkurat-Regular" !important;
+  height: 35px;
+  width: 145px;
+  color: $blue;
+  background: white;
+  border: 2px solid $blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 11px;
+  align-items: center;
+  cursor: pointer;
+  z-index: 1;
+
+  &:focus {
+    outline: none;
+  }
+
+  svg {
+    margin-left: 8px;
+  }
+}
+
+.options-btn {
+  justify-content: space-between;
+}
+
+.dropdown-btns {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  z-index: 1;
+  width: 141px !important;
+  border: 2px solid $blue;
+  border-top: none;
+}
+%dropdown-btn {
+  @extend .action-btn;
+  justify-content: flex-start;
+  width: inherit !important;
+  border: none;
+  height: 30px;
+}
+.revoke-btn {
+  @extend %dropdown-btn;
+  color: $red;
+}
+.resend-btn {
+  @extend %dropdown-btn;
+}
+
+.hr {
+  margin: 0 auto;
+  width: 96%;
+  border-bottom: 1px solid $gray-lighter;
+}

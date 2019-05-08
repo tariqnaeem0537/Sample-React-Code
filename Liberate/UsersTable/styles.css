@@ -1,0 +1,27 @@
+.result-table-container {
+  margin: auto;
+  margin-top: 15px;
+}
+
+.col-title {
+  font-weight: bold !important;
+  color: black !important;
+}
+
+.user-row {
+  height: 70px !important;
+}
+.user-row:nth-child(odd) {
+  background: #f9f9f9 !important;
+}
+.user-row:hover {
+  background-color: rgba(0, 0, 0, 0.04) !important;
+}
+
+.no-data-message {
+  display: flex;
+  justify-content: center;
+  margin: 200px auto;
+  width: 30%;
+  font-family: 'Telstra-Akkurat-Regular';
+}

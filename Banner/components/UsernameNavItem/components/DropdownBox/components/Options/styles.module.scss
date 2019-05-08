@@ -1,0 +1,32 @@
+@import '~assets/scss/_colors';
+
+.opt {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  span, a {
+    margin: 2px 0;
+    padding: 7px;
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:hover {
+      border-left: solid;
+      border-color: $blue-lighter;
+      margin-left: -7px;
+      padding-left: 11px;
+      background: rgba(0, 0, 0, 0.1);
+      border-radius: 1px;
+      padding-right: 0;
+      margin-right: -7px;
+      text-decoration: none;
+    }
+  }
+
+  hr {
+    width: 90%;
+    margin: 6px 5px 1px 5px;
+  }
+}

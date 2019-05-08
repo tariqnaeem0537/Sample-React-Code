@@ -1,0 +1,22 @@
+@keyframes spin {
+  from {
+      transform:rotate(0deg);
+  }
+  to {
+      transform:rotate(360deg);
+  }
+}
+
+.container {
+  border-radius: 50%;
+  background: linear-gradient(90deg, #00C0F3 0%, #BD8CBF 60.56%, #5F84C2 100%);
+  animation-name: spin;
+  animation-duration: 2000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.inner-box {
+  background: white;
+  border-radius: 50%;
+}

@@ -1,0 +1,75 @@
+@import '~assets/scss/_colors';
+
+@media only screen and (max-width: 800px) {
+  .need-support {
+    span {
+      color: $white-light;
+    }
+  }
+}
+
+.popup-container {
+  font-family: 'Telstra-Akkurat-Light';
+  min-height: 200px;
+  margin-top: 0;
+  color: $black-light;
+  max-width: 555px;
+  padding: 30px;
+}
+
+
+.header {
+  height: 32px;
+  color: #212B36;
+  font-family: "Telstra-Akkurat-Regular";
+  font-size: 26px;
+  line-height: 32px;
+  margin-bottom: 30px;
+}
+
+.sub-header {
+  height: 20px;
+  color: #212B36;
+  font-family: "Telstra-Akkurat-Bold";
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+%body {
+  min-width: 394px;
+	color: #212B36;
+	font-family: "Telstra-Akkurat-Regular";
+	font-size: 14px;
+  line-height: 18px;
+}
+.body {
+	@extend %body;
+  margin-bottom: 30px;
+}
+
+.footer {
+  @extend %body;
+}
+
+.phone {
+  font-family: "Telstra-Akkurat-Bold";
+}
+
+.need-support {
+  font-family: "Telstra-Akkurat-Regular";
+  margin-top: 10px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 15px;
+  color: #637381;
+  text-decoration-line: underline;
+
+  span {
+    margin-left: 5px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

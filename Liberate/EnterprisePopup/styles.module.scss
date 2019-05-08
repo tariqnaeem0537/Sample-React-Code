@@ -1,0 +1,72 @@
+@import '~assets/scss/colors';
+
+.container {
+  font-family: 'Telstra-Akkurat-Regular';
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 260px;
+  color: $black-light;
+  padding: 20px 30px;
+  width: 90%;
+}
+
+.title {
+  font-family: 'Telstra-Akkurat-Regular';
+  font-size: 35px;
+  margin-bottom: 50px;
+  color: $black-light;
+}
+
+.search-box {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
+
+.input-field {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 250%;
+
+  input {
+    margin-bottom: 0;
+    border-right: none;
+  }
+}
+
+.input-label {
+  font-family: 'Telstra-Akkurat-Bold';
+  height: 17px;
+  min-width: 200px;
+  color: #A5A5A5;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 17px;
+  text-transform: none;
+  margin-bottom: 0;
+}
+
+.search-button {
+  z-index: 1 !important;
+}
+.confirm-button {
+  margin: 7px 0 !important;
+}
+
+.p-bold {
+  font-size: 14px !important;
+  font-weight: 700;
+}
+
+.popup {
+  width: 46%;
+}
+
+.spinner {
+  position: absolute !important;
+  right: 2%;
+  top: 52%;
+}

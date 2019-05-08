@@ -1,0 +1,34 @@
+@import '~assets/scss/colors';
+
+.fullname {
+  color: #414141;
+  font-family: 'Telstra-Akkurat-Bold';
+  font-size: 34px;
+  letter-spacing: -0.64px;
+  line-height: 43px;
+  margin-bottom: 35px;
+  display: flex;
+  align-items: baseline;
+
+  svg {
+    font-size: 16px;
+    margin-left: 20px;
+    cursor: pointer;
+    color: $gray-darker;
+  }
+}
+
+.subtitle {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.status {
+  display: flex;
+  flex-direction: column;
+
+  span {
+    margin-bottom: 20px;
+  }
+}

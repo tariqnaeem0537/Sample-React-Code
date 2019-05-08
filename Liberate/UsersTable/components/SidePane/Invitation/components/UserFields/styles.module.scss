@@ -1,0 +1,51 @@
+@import '~assets/scss/colors';
+
+.input {
+  margin: 5px 0 25px 0;
+}
+
+.pending-mobile-text {
+  margin-top: -15px;
+  color: $gray;
+  font-size: 14px;
+}
+
+.cant-edit {
+  position: absolute;
+  right: 50px;
+  font-size: 12px;
+  color: $blue;
+  text-decoration: underline;
+  cursor: help;
+  line-height: 0em;
+}
+
+.tip {
+  font-family: "Telstra-Akkurat-Regular";
+  position: relative;
+  font-size: 14px;
+  max-width: 200px;
+  color: $gray-darker;
+  line-height: 1.4em;
+
+  svg {
+    position: absolute;
+    top: -62px;
+    right: 38%;
+    font-size: 70px;
+    color: white;
+  }
+
+  p {
+    padding: 5px 12px;
+  }
+}
+
+.tooltip {
+  background: white !important;
+  max-width: 200px;
+  margin-top: 30px !important;
+  margin-right: 10px !important;
+  box-shadow: 0 0 9px -2.7px rgba(0, 0, 0, 0.5);
+  border-radius: 0 !important;
+}

@@ -1,0 +1,27 @@
+@import '~assets/scss/colors';
+
+%shared {
+  font-family: "Telstra-Akkurat-Regular";
+  color: $black-light;
+  font-size: 14px;
+  line-height: 24px;
+}
+.title {
+  @extend %shared;
+  font-family: "Telstra-Akkurat-Bold";
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.list {
+  @extend %shared;
+  padding-left: 18px;
+}
+
+.tclink {
+  text-decoration: underline;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
